@@ -3,7 +3,6 @@
 # Updates domain A zone record with WAN IP
 
 IP_SERVICE="http://ifconfig.me"
-RECORD_LIST="jbbd.fr;test.jbbd.fr"
 
 while getopts "46" option ; do
   case $option in
